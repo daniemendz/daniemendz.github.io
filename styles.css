@@ -9,7 +9,7 @@ body{
 
 .title{
     font-family: "EB Garamond", serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: bold;
     color: #243C47;
     margin-left: 10px;
@@ -17,7 +17,7 @@ body{
 }
 
 .paragraph, .paragraph2{
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-left: 10px;
     color: #243C47;
 }
@@ -51,7 +51,7 @@ html{
 
 .links{
     margin: 42px 35px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: right;
 }
 .links a{
@@ -108,14 +108,14 @@ html{
     color: #243C47;
     font-family: "EB Garamond", serif;
     text-align: left;
-    font-size: 5.2rem;
+    font-size: 5rem;
 }
 .firstbio{
     margin-left: 150px;
     margin-top: 50px;
 }
 .firstbio p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin:0;
     padding:6px;
     color: #243C47;
