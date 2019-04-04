@@ -1,145 +1,166 @@
-<html>
-    
+<!DOCTYPE html>
+
+<html lang="en">
+
     <head>
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <meta charset="utf-8" />
+        <title>Danielle Mendoza Art</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="icon" href="img/logo-pink.png" />
+        
+        <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
         <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-
+        
     </head>
-    <style>
-        
-        body{
-            margin:0;
-        }
-        
-        html{
-            scroll-behavior: smooth;
-        }
-        
-        #nav{
-            background-color: #fff;
-            width: 100%;
-            position: fixed;
-            top:0;
-            padding:10px;
-        }
-        
-        #rugby, #cricket, #soccer{
-            padding-top: 40px;
-        }
-    </style>
     
     <body>
         
-        
-        <div id="nav">
-            <a href="#rugby">RUGBY</a>
-            <a href="#cricket">CRICKET</a>
-            <a href="#soccer">SOCCER</a>
+        <div id="header">
+            <div class="nav">
+                <div id="logo" >
+                    <a href="#home"><img class="whitesquare" src="img/whitesquare.png"/></a>
+                </div>
+                <div class="links">
+                    <a href="#home">home</a>
+                    <a href="#portfolio">portfolio</a>
+                    <a href="#about">about</a>
+                    <a href="#contact">contact</a>
+                </div>
+            </div>
         </div>
         
+        <div id="home">
+            <div class="banner">
+                <img src="img/bannercrop.jpg"/>
+            </div>
+            
+            <div class="asidehome">
+                <div class="name">danielle<br>mendoza.</div>
+                <div class="firstbio">
+                    <p>illustration</p>
+                    <p>graphic design</p>
+                    <p>animation</p>
+                </div>
+            </div>
+        </div>
         
-        <a data-fancybox="gallery" href="img/big_1.jpg">
-            <img src="img/small_1.jpg"/>
-        </a>
+        <div id="portfolio">
+            <div class="article">
+                <div class="title">portfolio</div>
+                <div class="paragraph">A collection of works (2017-current).  </div>
+            </div>
+            <div class="gallery">
+                
+                <a data-fancybox="gallery" data-caption="Anya & Kida | Original character design (2017)" href="img/big/A&K%20breakfast%20solids%20pink.jpg">
+                    <div class="galPic"><img src="img/thumbs/A&K%20breakfast%20solids%20pinkthumbs.jpg"/></div>
+                </a>
+                
+                <a data-fancybox="gallery" data-caption="Common Ground | Poster for fictional client (2018)" href="img/big/CG-PosterFINAL.jpg">
+                    <div class="galPic"><img src="img/thumbs/CG-PosterFINALthumbs"/></div>
+                </a>
+                
+                <a data-fancybox="gallery" data-caption="India ink on A5 (2018)" href="img/big/DETAILEDBIRB.JPG">
+                    <div class="galPic"><img src="img/thumbs/DETAILEDBIRBthumbs"/></div>
+                </a>    
+                
+                <a data-fancybox="gallery" data-caption="Poster concept (2017)" href="img/big/dudebacc.jpg">
+                    <div class="galPic"><img src="img/thumbs/dudebaccthumbs"/></div>
+                </a>
+
+                <a data-fancybox="gallery" data-caption="Book cover concept (2017)" href="img/big/houseZebro.jpg">
+                    <div class="galPic"><img src="img/thumbs/houseZebrothumbs"/></div>
+                </a>    
+                
+                <a data-fancybox="gallery" data-caption="India ink on A5 (Inktober 2017)" href="img/big/inktbr2017-4.JPG">
+                    <div class="galPic"><img src="img/thumbs/inktbr2017-4thumbs"/></div>
+                </a>
+                
+                <a data-fancybox="gallery" data-caption="The Lark and Her Father | Visualisation poster task: turn Aesop's fable into a movie (2019)" href="img/big/LarkAndFather-PosterYELLOW.jpg">
+                    <div class="galPic"><img src="img/thumbs/LarkAndFather-PosterYELLOWthumbs.jpg"/></div>
+                </a>
+                
+                <a data-fancybox="gallery" data-caption="India ink on A5 (2018)" href="img/big/tigerdad.JPG">
+                    <div class="galPic"><img src="img/thumbs/tigerdadthumbs.jpg"/></div>
+                </a>
+                
+                <a data-fancybox="gallery" data-caption="Business card concept (2017)" href="img/big/MCardPanda-Lrg.jpg">
+                    <div class="galPic"><img src="img/thumbs/MCardPanda-Lrgthumbs.jpg"/></div>
+                </a>    
+                
+                <a data-fancybox="gallery" data-caption="Noscars | Poster for Newlands College (2018)" href="img/big/noscars2018-POSTERFINAL.jpg">
+                    <div class="galPic"><img src="img/thumbs/noscars2018-POSTERFINALthumbs"/></div>
+                </a>
+                
+                <a data-fancybox="gallery" data-caption="Pentel pocket brush on A5 (2017)" href="img/big/scorchn.JPG">
+                    <div class="galPic"><img src="img/thumbs/scorchnthumbs.jpg"/></div>
+                </a>    
+                    
+                <a data-fancybox="gallery" data-caption="Spider Gwen Rising | Personal art work (2019)" href="img/big/spidergwenrising.jpg">
+                    <div class="galPic"><img src="img/thumbs/spidergwenrisingthumbs"/></div>
+                </a>
+                
+                <a data-fancybox="gallery" data-caption="Book cover concept (2017)" href="img/big/StripedKid.jpg">
+                    <div class="galPic"><img src="img/thumbs/StripedKidthumbs"/></div>
+                </a>    
+                    
+                <a data-fancybox="gallery" data-caption="Out of Mind | Part 1 of ongoing personal artwork series (2018) " href="img/big/tatted9-7-18.jpg">
+                    <div class="galPic"><img src="img/thumbs/tatted9-7-18thumbs.jpeg"/></div>
+                </a>    
+                
+                <a data-fancybox="gallery" data-caption="(2018)" href="img/big/tigrpetal.jpg">
+                    <div class="galPic"><img src="img/thumbs/tigrpetalthumbs"/></div>
+                </a>
+                
+                <a data-fancybox="gallery" data-caption="Virus | Short film poster (2018)" href="img/big/Virus-Poster.jpg">
+                    <div class="galPic"><img src="img/thumbs/Virus-Posterthumbs"/></div>
+                </a>
+            </div>
+        </div>
+            
+        <div id="about">
+            <div class="title">about</div>
+            <div class="aboutarticle">
+                <div class="profpic"><img src="img/profpic.jpg"/></div>
+                <div class="paragraph2">Hi, my name is Danielle and I like to draw stuff.<br><br>
+                
+                I am a student based in Wellington, New Zealand studying a Bachelor of Creative Media Production at Massey. A majority of my work consists of traditional inked drawings, but I love experimenting with art digitally. I am currently working to gain more skills in animation, VFX and 3d modelling. <br><br>
+                Now, I will blabber on about something to fill the space. Long ago, the four nations lived together in harmony. But everything changed when the fire nation attacked. Only the Avatar, master of all four elements could stop them. 
+                
+                
+                </div>
+            </div>
+        </div>
         
-        <a data-fancybox="gallery" href="img/big_2.jpg">
-            <img src="img/small_2.jpg"/>
-        </a>
-        
-        <a data-fancybox="gallery" href="img/big_3.jpg">
-            <img src="img/small_3.jpg"/>
-        </a>
-        
-        <a data-fancybox="gallery" href="img/big_4.jpg">
-            <img src="img/small_4.jpg"/>
-        </a>
-        
-        <a data-fancybox="gallery" href="img/big_5.jpg">
-            <img src="img/small_5.jpg"/>
-        </a>
-        
-        <h1 id="rugby">RUGBY</h1>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        
-        <h1 id="cricket">CRICKET</h1>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        
-        <h1 id="soccer">SOCCER</h1>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        blah<br>
-        
-        <br><br><br>
-        <br><br><br>
-        <br><br><br>
-        <br><br><br>
-        <br><br><br>
-        <br><br><br>
-        <br><br><br>
-        <br><br><br>
-        <br><br><br>
-        <br><br><br>
-        <br><br><br>
-        <br><br><br>
-        <br><br><br>
+        <div id="contact">
+            <div class="title">contact</div>
+            <div class="paragraph">Where to find me:</div>
+            
+            <div class="contactarticle">
+                
+                <div class="conIcons">
+                    <img />
+                    <div class ="paragraph3">Instagram<br>@daniemendz</div>
+                </div>
+                
+                <div class="conIcons">
+                    <img />
+                    <div class ="paragraph3">Behance<br>@daniemendz</div>
+                </div>
+                
+                <div class="conIcons">
+                    <img />
+                    <div class ="paragraph3">GitHub<br>@daniemendz</div>
+                </div>
+                
+            </div>
+        </div>
+            
+        <div id="footer">
+            
+        </div>
         
     </body>
+
 </html>
