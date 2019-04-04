@@ -93,7 +93,7 @@ html{
     display: grid;
     grid-template-columns: 42% auto;
     padding-top: 150px;
-    padding-left: 30px;
+    padding-left: 90px;
 }
 .banner{
     margin-top: 50px;
@@ -189,6 +189,22 @@ html{
     background-color: #fff;
     height: 500px;
     border-top:dashed 2px #ddd;
+}
+
+.contactarticle{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.conIcons img{
+    max-width: 50%;
+    margin: 25%;
+}
+
+.conIcons a{
+    color: #3d9fb5;
+}
+.conIcons a:hover{
+    color: #71d9d1;
 }
 
 
