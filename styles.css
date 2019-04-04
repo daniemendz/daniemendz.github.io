@@ -199,6 +199,10 @@ html{
     max-width: 50%;
     margin: 25%;
 }
+.conIcons img:hover{
+    filter: saturate(0);
+    transition: 0.2s;
+}
 
 .conIcons a{
     color: #3d9fb5;
