@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond:700|Quicksand:300');
 
+*  { outline: cyan solid 1px; }
+
 body{
     background-color: #fff;
     margin:0;
@@ -69,7 +71,7 @@ html{
     background-size: 60px;
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 80px;
+    max-width: 0px;
     margin: 0px 55px;
 }
 #logo:hover{
@@ -223,3 +225,26 @@ html{
     font-size: 1.2rem;
     text-align: center;
 }
+
+
+/* No media query for `xs` since this is the default in Bootstrap, HERE WE WRITE EXCEPTIONS*/       
+/* sm (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+}
+
+/* md (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+}
+    
+
+/* lg (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+    
+}
+
+
+/* xl (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
