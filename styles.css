@@ -80,8 +80,6 @@ body{
 #home{
     max-width: 1000px;
     margin: auto;
-    display: grid;
-    grid-template-columns: 42% auto;
     padding-top: 200px;
     padding-left: 90px;
 }
