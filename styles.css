@@ -223,3 +223,28 @@ html{
     font-size: 1.2rem;
     text-align: center;
 }
+
+
+
+
+
+/* No media query for `xs` since this is the default in Bootstrap, HERE WE WRITE EXCEPTIONS*/       
+/* sm (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+}
+
+/* md (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+}
+    
+
+/* lg (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    
+}
+
+
+/* xl (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
