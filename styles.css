@@ -65,7 +65,7 @@ body{
     text-decoration: underline;
 }
 
-#logo{
+.logo{
     background: url(img/logo-black.png);
     background-size: 60px;
     background-repeat: no-repeat;
@@ -73,7 +73,7 @@ body{
     max-width: 80px;
     margin: 0px 55px;
 }
-#logo:hover{
+.logo:hover{
     background: url(img/logo-pink.png);
     background-size: 78px;
     background-repeat: no-repeat;
