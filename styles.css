@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond:700|Quicksand:300');
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #fff;
     margin:0;
@@ -22,9 +26,6 @@ body{
     color: #243C47;
 }
 
-html{
-    scroll-behavior: smooth;
-}
 
 #home, #portfolio, #about, #contact{
     padding: 105px 0px;
