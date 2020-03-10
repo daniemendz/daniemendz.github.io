@@ -27,7 +27,7 @@ body{
 }
 
 
-#home, #portfolio, #about, #contact{
+#home, #portfolio, #about{
     padding: 105px 0px;
     max-width: 1000px;
     margin: auto;
@@ -183,34 +183,6 @@ body{
     text-align: left;
 }
 
-
-
-/*CONTACT*/
-#contact{
-    background-color: #fff;
-    height: 500px;
-    border-top:dashed 2px #ddd;
-}
-
-.contactarticle{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-.conIcons img{
-    max-width: 50%;
-    margin: 25%;
-}
-.conIcons img:hover{
-    filter: saturate(0);
-    transition: 0.2s;
-}
-
-.conIcons a{
-    color: #3d9fb5;
-}
-.conIcons a:hover{
-    color: #71d9d1;
-}
 
 
 
