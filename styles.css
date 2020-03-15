@@ -62,6 +62,7 @@ body{
 .nav{
     max-width: 1000px; /*IMPORTANAAANTT*/
     margin: auto; /*Center nav*/
+    padding-left: 2%;
 }
 
 .links{
@@ -167,6 +168,7 @@ body{
 #portfolio{
     border-top:dashed 2px #ddd;
     background-color: #fff;
+    padding-left: 5%;
 }
 
 
@@ -175,6 +177,8 @@ body{
 #about{
     background-color: #fff;
     border-top:dashed 2px #ddd;
+    padding-left: 5%;
+
 }
 
 .aboutarticle{
