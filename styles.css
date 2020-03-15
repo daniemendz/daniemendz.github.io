@@ -40,26 +40,24 @@ body{
     top: 0;
     width: 100%;
     background-color: #fff;
-    height:260px;
+    height:14%;
     box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.05);
 }
 .nav{
     max-width: 1000px; /*IMPORTANAAANTT*/
     margin: auto; /*Center nav*/
-    display:grid;
-    grid-template-columns: 20% auto;
 }
 
 
 .links{
-    margin: 12% 10% 0% 0%;
-    font-size: 3rem;
-    text-align: right;
+    margin: 2% 10% 0% 30%;
+    font-size: 1rem;
+    text-align: left;
 }
 .links a{
     color: #000;
     text-decoration: none;
-    margin: 45px;
+    padding:10px;
 }
 .links a:hover{
     color: #e67d84;
@@ -67,19 +65,39 @@ body{
 }
 
 .logo img{
-    max-width: 150%;
-    margin: 35% 50%;
-    opacity: 0.8;
+    max-width: 30%;
+    margin: 5% 0% 0% 10%;
+    opacity: 0.80;
 }
 .logo img:hover{
     opacity:1;
 }
+
+.logotext p{
+    font-family: "EB Garamond", serif;
+    font-size: 3rem;
+    text-decoration: none;
+    font-weight: bold;
+    color: #F29298;
+    opacity: 0.8;
+}
+.logotext{
+    margin:3% 0% 0% 15%;
+}
+.logotext p:hover{
+    opacity: 1;
+    #F29298;
+    text-decoration: underline;
+}
+
+
 
 
 
 /*HOME*/
 #home{
     max-width: 1000px;
+    max-height: 600px;
     margin: auto;
     padding-top: 30%;
     padding-left: 90px;
@@ -90,7 +108,7 @@ body{
     text-align: left;
 }
 .banner img{
-    max-width: 440px;
+    max-width: 50%;
 }
 .name{
     margin-top: 100px;
@@ -127,8 +145,7 @@ body{
 }
 
 .aboutarticle{
-    display: grid;
-    grid-template-columns:  25% auto;
+
 }
 
 .profpic img{
@@ -136,11 +153,9 @@ body{
     text-align: center;
     margin:0px 10px;
     max-width: 90%;
-    grid-column: 1/2;
 }
 
 .paragraph2{
-    grid-column: 2/3;
     margin-left: 10px;
     text-align: left;
 }
@@ -165,16 +180,22 @@ body{
 }
 
 /* md (tablets, 768px and up)*/
-@media (min-width: 768px) {
-
+@media (min-width: 768px) { 
+    
 }
     
 
 /* lg (desktops, 992px and up)*/
 @media (min-width: 992px) {
-    
+.logotext{margin:1% 0% 0% -10%;}
 }
 
 
 /* xl (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { ... }
+
+
+
+
+
+
