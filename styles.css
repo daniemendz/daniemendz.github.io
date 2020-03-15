@@ -50,14 +50,14 @@ body{
 
 
 .links{
-    margin: 2% 10% 0% 30%;
+    margin: 4% 10% 0% 30%;
     font-size: 1rem;
     text-align: left;
 }
 .links a{
     color: #000;
     text-decoration: none;
-    padding:10px;
+    padding:20px;
 }
 .links a:hover{
     color: #e67d84;
@@ -65,8 +65,8 @@ body{
 }
 
 .logo img{
-    max-width: 30%;
-    margin: 5% 0% 0% 10%;
+    max-width: 25%;
+    margin: 6.5% 0% 0% 10%;
     opacity: 0.80;
 }
 .logo img:hover{
@@ -97,18 +97,18 @@ body{
 /*HOME*/
 #home{
     max-width: 1000px;
-    max-height: 600px;
+    max-height: 1000px;
     margin: auto;
-    padding-top: 30%;
-    padding-left: 90px;
+    padding-top: 100px;
+    padding-left: 5%;
 }
 .banner{
     margin-top: 50px;
-    margin-left: 110px;
+    margin-left: 10%;
     text-align: left;
 }
 .banner img{
-    max-width: 50%;
+    max-width: 40%;
 }
 .name{
     margin-top: 100px;
@@ -187,7 +187,7 @@ body{
 
 /* lg (desktops, 992px and up)*/
 @media (min-width: 992px) {
-.logotext{margin:1% 0% 0% -10%;}
+.logotext{margin:1% 0% 0% -14%;}
 }
 
 
