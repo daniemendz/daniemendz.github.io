@@ -17,6 +17,7 @@ body{
     font-weight: bold;
     color: #243C47;
     margin-bottom: 5%;
+    margin-left: -4%;
     text-align: center;
 }
 .title a{
@@ -64,7 +65,6 @@ body{
     margin: auto; /*Center nav*/
     padding-left: 2%;
 }
-
 .links{
     font-size: 1rem;
     float:right;
@@ -153,11 +153,11 @@ body{
     margin-left:-25%;
 }
 .firstbio{
-    margin-left: 150px;
-    margin-top: 50px;
+    margin-left: 58%;
+    margin-top: -150px;
 }
 .firstbio p{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin:0;
     padding:6px;
     color: #243C47;
@@ -187,9 +187,9 @@ body{
 }
 
 .profpic img{
-    border-radius: 50%;
-    margin:1% 15%;
-    max-width: 70%;
+    border-radius: 100%;
+    margin:1% 20%;
+    max-width: 56%;
 }
 
 .paragraph2{
@@ -229,6 +229,7 @@ body{
 #header{height:95px;}
 .logo img{margin: 18.5px 0% 0% 29%;}   
 .name{font-size: 4rem;margin-left:-20%;}
+.firstbio{margin-top: -32%;}
 }
 
 /* md (tablets, 768px and up)*/
@@ -240,12 +241,15 @@ body{
 .logo img{margin: 18px 0% 0% 92%;}
 .name{font-size: 5rem;margin-top: 10%;margin-left:-25%;} 
 .banner img{max-width: 70%;}
+.firstbio{margin-left:48%;margin-top: -20%;}
 }
     
 
 /* lg (desktops, 992px and up)*/
 @media (min-width: 992px) {
 .nav{padding-left:8.5%;}
+.firstbio{margin-top: -24%;}
+.firstbio p{font-size: 1.5rem;}
 }
 
 
