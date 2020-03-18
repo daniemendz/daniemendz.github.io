@@ -31,7 +31,6 @@ body{
 
 .paragraph, .paragraph2, .paragraph3{
     font-size: 1.3rem;
-    margin-left: 3%;
     color: #243C47;
 }
 
@@ -195,6 +194,7 @@ body{
 .paragraph2{
     margin-top: 7%;
     text-align: left;
+    
 }
 
 
